@@ -28,7 +28,7 @@ The dataset includes:
 ### Descriptive Statistics
 - Average, median, min, max, and standard deviation of heart rate.
 - Count of records by activity level.
-- **Correlation Analysis**
+  ### Correlation Analysis
 - Heart Rate vs Blood Oxygen Level
 - Heart Rate vs Step Count
 
