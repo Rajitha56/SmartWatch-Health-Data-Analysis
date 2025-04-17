@@ -28,9 +28,8 @@ The dataset includes:
 ### Descriptive Statistics
 - Average, median, min, max, and standard deviation of heart rate.
 - Count of records by activity level.
-  ### Correlation Analysis
-  - Heart Rate vs Blood Oxygen Level
-  - Heart Rate vs Step Count
+- Heart Rate vs Blood Oxygen Level
+- Heart Rate vs Step Count
 
 ### Pivot Table Analysis
 - Stress Level, Heart Rate, and Blood Oxygen Level grouped by Activity Level
