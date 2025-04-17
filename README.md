@@ -1,6 +1,7 @@
 # SmartWatch Health Data Analysis
 
 https://docs.google.com/spreadsheets/d/1uDsdgxLwdP8Pe2BQfzC93f5n45ICdo-RXYQkhDK5TVw/edit?usp=sharing
+
 This Link contains Cleaned, Analysed and Visualization of the data
 
 ## Project Overview
@@ -57,5 +58,5 @@ This project includes a data dashboard visualizing key health metrics:
 - Heart rate remained fairly consistent across activity levels — which was surprising and could indicate the need for time-based data to see peaks.
 - Blood oxygen levels were stable and didn't differ much by activity type, likely because it fluctuates less in daily activity.
   
-### Tools & Technologies
+## Tools & Technologies
 - Google Sheets 
