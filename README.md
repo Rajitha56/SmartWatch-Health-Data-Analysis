@@ -41,6 +41,7 @@ The dataset includes:
 - Bar Chart (Oxygen Level by Activity)
 - Pie Chart (Stress Level by Activity)
 
+![image](https://github.com/user-attachments/assets/a2193a0e-4fe2-4bdd-913a-3427ea7afba8)
 
 ## Dasboard Insights
 This project includes a data dashboard visualizing key health metrics:
