@@ -1,12 +1,13 @@
 # SmartWatch Health Data Analysis
 
 https://docs.google.com/spreadsheets/d/1uDsdgxLwdP8Pe2BQfzC93f5n45ICdo-RXYQkhDK5TVw/edit?usp=sharing
+This Link contains Cleaned, Analysed and Visualization of the data
 
-### Project Overview
+## Project Overview
 
 This project involves cleaning and analyzing smartwatch health data collected from users. The dataset includes metrics like heart rate, blood oxygen levels, step count, sleep duration, activity level, and stress levels. The goal is to preprocess the data, fix inconsistencies, and extract meaningful insights.
 
-### Dataset
+## Dataset
 The dataset includes:
 - User ID: Unique identifier for each user
 - Heart Rate (BPM): Recorded heart rate
@@ -16,35 +17,45 @@ The dataset includes:
 - Activity Level: Categorized as active, highly active, Sedentary
 - Stress Level: Numeric representation of stress
 
-### Data Cleaning Steps
+## Data Cleaning Steps
 - Handling missing values by imputation or removal.
 - Correcting data type inconsistencies.
 - Standardizing categorical labels (e.g., fixing typos in Activity Level).
 - Removing or correcting erroneous entries.
 
-### Pivot Table Analysis
-Pivot tables were utilized to summarize and extract insights from the dataset efficiently:
-- Average Metrics by Activity Level:
-Computed mean heart rate, Stress levels and blood oxygen level for different activity levels.
+## Analysis Performed
+### Descriptive Statistics
+- Average, median, min, max, and standard deviation of heart rate.
+- Count of records by activity level.
+- **Correlation Analysis**
+- Heart Rate vs Blood Oxygen Level
+- Heart Rate vs Step Count
 
-### Dasboard Insights
+### Pivot Table Analysis
+- Stress Level, Heart Rate, and Blood Oxygen Level grouped by Activity Level
+
+### Visual Dashboard
+- KPIs (Heart Rate, Oxygen Level, Step Count, Sleep Duration)
+- Distribution Chart (Heart Rate)
+- Scatter Plot (Step Count vs Sleep Duration with trendline)
+- Bar Chart (Oxygen Level by Activity)
+- Pie Chart (Stress Level by Activity)
+
+
+## Dasboard Insights
 This project includes a data dashboard visualizing key health metrics:
 
-#### Key Metrics:
+### Key Metrics:
 - Average Heart Rate: 75.99 BPM
 - Average Blood Oxygen Level: 97.85%
 - Average Step Count: 6,981.87 steps
 - Average Sleep Duration: 6.5 hours
 
-#### Visualizations:
-- Distribution of Heart Rate: Histogram to detect abnormal values.
-- Step Count vs Sleep Duration: Scatter plot with a trend line.
-- Blood Oxygen Level vs Activity Level: Bar chart comparison.
-- Stress Levels by Activity Level: Pie chart for distribution.
-
-#### Interactive Features:
-- Activity Level Filter: Allows users to analyze trends across different activity levels.
-- Trend Analysis: Linear regression applied to sleep duration vs. step count.
-
+## Key Insights
+- Sedentary users had slightly higher average stress levels than active ones.
+- Step count and sleep duration showed a weak positive correlation, meaning people who walked more tended to sleep slightly longer.
+- Heart rate remained fairly consistent across activity levels — which was surprising and could indicate the need for time-based data to see peaks.
+- Blood oxygen levels were stable and didn't differ much by activity type, likely because it fluctuates less in daily activity.
+  
 ### Tools & Technologies
 - Google Sheets 
